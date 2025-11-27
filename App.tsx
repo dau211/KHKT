@@ -51,8 +51,8 @@ declare var webkitSpeechRecognition: {
 
 import React, { useState, useRef } from 'react';
 import { ElementData } from './types';
-import PeriodicTable from './components/PeriodicTable';
-import ElementDetails from './components/ElementDetails';
+import PeriodicTable from './scr/components/PeriodicTable';
+import ElementDetails from './sct/components/ElementDetails';
 import QuizModal from './components/QuizModal';
 import { elements as defaultElements } from './data/elements';
 
